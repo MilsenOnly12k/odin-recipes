@@ -1,0 +1,62 @@
+body {
+  background-color: burlywood;
+  text-align: center;
+}
+
+#Header {
+  font-family: "Courier New", monospace, sans-serif;
+  font-size: 40px;
+  background-color: rgb(241, 212, 177);
+  color: rgb(63, 60, 50);
+}
+
+#ImageOne {
+  height: auto;
+  width: 600px;
+}
+
+#Description {
+  background-color: rgb(240, 208, 168);
+  font-size: 35px;
+  font-family: "Courier New", monospace, sans-serif;
+  color: rgb(68, 63, 63);
+}
+
+.Description {
+  background-color: rgb(240, 208, 168);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#Ingredients {
+  background-color: rgb(240, 208, 168);
+  color: rgb(68, 63, 63);
+  font-size: 35px;
+  font-family: "Courier New", monospace, sans-serif;
+}
+
+.Ingredients {
+  background-color: rgb(240, 208, 168);
+  font-size: 20px;
+}
+
+.Ingredients p {
+  font-size: 30px;
+}
+
+#Steps {
+  background-color: rgb(240, 208, 168);
+  font-size: 35px;
+  font-family: "Courier New", monospace, sans-serif;
+  color: rgb(68, 63, 63);
+}
+
+.Steps {
+  background-color: rgb(240, 208, 168);
+  font-size: 20px;
+}
+
+#Home-page {
+  color: darkred;
+  font-size: 40px;
+}

@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(246, 242, 171);
+  text-align: center;
+
+}
+
+#Header {
+  background-color: rgb(226, 211, 82);
+  font-size: 40px;
+  font-family: "Courier New", monospace, sans-serif;
+}
+
+.Selection {
+  background-color: rgb(197, 197, 127);
+  font-size: 25px;
+  color: black;
+  font-family: "Courier New", monospace, sans-serif;
+  font-weight: 400;
+}
