@@ -1,22 +1,13 @@
 body {
   background-color: rgb(246, 242, 171);
   text-align: center;
-  box-sizing: border-box;
- 
-  
+
 }
 
-
-.Header {
+#Header {
   background-color: rgb(226, 211, 82);
   font-size: 40px;
   font-family: "Courier New", monospace, sans-serif;
-  width: 650px;
-  margin: 0 auto;
- 
-}
-.Header h1 {
-  padding: 20px 
 }
 
 .Selection {
@@ -25,7 +16,4 @@ body {
   color: black;
   font-family: "Courier New", monospace, sans-serif;
   font-weight: 400;
-  width: 400px;
-  margin: 100px auto;
 }
-
