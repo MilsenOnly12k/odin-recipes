@@ -1,6 +1,40 @@
 body {
-  background-color: burlywood;
+  background-color: rgb(122, 89, 30);
   text-align: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.Site {
+  width: auto;
+  margin: 0 20%;
+  background-color: burlywood;
+}
+
+.FirstDiv,
+.SecondDiv {
+  margin: 0 10px 10px;
+  height: auto;
+}
+
+.MainBox,
+.SecondBox {
+ 
+  width: 600px;
+  display: inline-block;
+  
+}
+
+.Ingr,
+.Desc {
+  margin: 0 auto;
+  width: 600px;
+  display: inline-block;
+  
+}
+
+.Ingr {
+  margin-right: 2%;
 }
 
 #Header {
@@ -8,11 +42,14 @@ body {
   font-size: 40px;
   background-color: rgb(241, 212, 177);
   color: rgb(63, 60, 50);
+  width: 400px;
+  margin: 20px auto;
+  padding: 10px;
 }
 
 #ImageOne {
   height: auto;
-  width: 600px;
+  width: 350px;
 }
 
 #Description {
@@ -28,16 +65,25 @@ body {
   font-weight: 600;
 }
 
+#Ingredients,
+#Steps {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
 #Ingredients {
   background-color: rgb(240, 208, 168);
   color: rgb(68, 63, 63);
   font-size: 35px;
   font-family: "Courier New", monospace, sans-serif;
+  width: 300px;
 }
 
 .Ingredients {
   background-color: rgb(240, 208, 168);
   font-size: 20px;
+  
 }
 
 .Ingredients p {
@@ -49,6 +95,7 @@ body {
   font-size: 35px;
   font-family: "Courier New", monospace, sans-serif;
   color: rgb(68, 63, 63);
+  width: 200px;
 }
 
 .Steps {
@@ -60,3 +107,4 @@ body {
   color: darkred;
   font-size: 40px;
 }
+
